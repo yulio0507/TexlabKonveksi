@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "testimonial-1793325673015",
+    "description": "Seragam Nehaa",
+    "image": "assets/admin/1793325670464-produk.png",
+    "alt": "Kaos Custom",
+    "name": "Kaos Custom",
+    "quote": "keren sekali sangat puas",
+    "product": "seragam"
+  }
+]
