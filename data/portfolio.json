@@ -1,0 +1,72 @@
+[
+  {
+    "id": "portfolio-1",
+    "title": "Custom Clothes",
+    "description": "Kaos dan pakaian custom",
+    "image": "assets/hero-custom-kaos.png",
+    "alt": "Custom Clothes"
+  },
+  {
+    "id": "portfolio-2",
+    "title": "Kaos Organisasi",
+    "description": "Kaos custom untuk organisasi dan komunitas",
+    "image": "assets/kaos-hima.png",
+    "alt": "Kaos Organisasi"
+  },
+  {
+    "id": "portfolio-3",
+    "title": "Seragam Custom",
+    "description": "Contoh produk seragam",
+    "image": "assets/produk-1.png",
+    "alt": "Seragam Custom"
+  },
+  {
+    "id": "portfolio-4",
+    "title": "Kaos Komunitas",
+    "description": "Portofolio kaos komunitas",
+    "image": "assets/produk-2.png",
+    "alt": "Kaos Komunitas"
+  },
+  {
+    "id": "portfolio-5",
+    "title": "Pakaian Custom",
+    "description": "Contoh hasil desain pakaian",
+    "image": "assets/produk-3.png",
+    "alt": "Pakaian Custom"
+  },
+  {
+    "id": "portfolio-6",
+    "title": "Koleksi Texlab",
+    "description": "Pilihan visual produk",
+    "image": "assets/produk-4.png",
+    "alt": "Koleksi Texlab"
+  },
+  {
+    "id": "portfolio-7",
+    "title": "Kumpulan Portofolio",
+    "description": "Ragam visual dan proyek Texlab",
+    "image": "assets/feed-portofolio.png",
+    "alt": "Kumpulan Portofolio"
+  },
+  {
+    "id": "portfolio-8",
+    "title": "Jaket Identitas",
+    "description": "Jaket custom untuk identitas tim",
+    "image": "assets/jaket-identitas.png",
+    "alt": "Jaket Identitas"
+  },
+  {
+    "id": "portfolio-9",
+    "title": "Jas Laboratorium",
+    "description": "Jas lab dan pakaian akademik",
+    "image": "assets/jas-lab.png",
+    "alt": "Jas Laboratorium"
+  },
+  {
+    "id": "portfolio-10",
+    "title": "Seragam Organisasi",
+    "description": "Pakaian custom untuk organisasi",
+    "image": "assets/kaos-custom.png",
+    "alt": "Seragam Organisasi"
+  }
+]

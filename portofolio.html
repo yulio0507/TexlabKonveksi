@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Galeri portofolio Texlab Konveksi: kaos custom, seragam, jaket identitas, jas lab, dan apparel organisasi.">
+<title>Portofolio — Texlab Konveksi</title>
+<style>
+:root{--blue:#1767b4;--violet:#7858f3;--ink:#101b31;--muted:#687386;--line:#e7ebf2;--paper:#f7f8fb}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#fff}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(14px);z-index:5}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:.08em}.brand img{width:46px;height:46px;border-radius:50%;object-fit:contain}.brand small{display:block;color:#758096;font-size:9px;letter-spacing:.2em;margin-top:3px}.navlinks{display:flex;gap:20px;font-size:13px;font-weight:700;color:#4e5a6e}.btn{display:inline-flex;padding:12px 18px;border-radius:999px;background:var(--ink);color:white;font-size:12px;font-weight:800}.hero{padding:70px 0 42px;background:radial-gradient(ellipse at 85% 10%,#e7f2ff,transparent 40%),#fafbfe}.kicker{font-size:11px;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:var(--blue)}h1{font-size:clamp(38px,6vw,66px);letter-spacing:-.055em;line-height:1;margin:14px 0 18px}.grad{background:linear-gradient(100deg,#1688d6,#7858f3);color:transparent;background-clip:text}.hero p{max-width:650px;color:var(--muted);font-size:15px;line-height:1.8}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:44px 0 80px}.card{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff;transition:.2s;display:block}.card:hover{transform:translateY(-4px);box-shadow:0 18px 44px #102b4b12;border-color:#cbdcf2}.photo{height:340px;background:#edf2f9;overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover;transition:transform .35s}.card:hover img{transform:scale(1.03)}.cardcopy{padding:19px}.cardcopy span{font-size:10px;font-weight:900;letter-spacing:.13em;color:var(--blue)}.cardcopy h2{font-size:19px;margin:9px 0}.cardcopy p{font-size:13px;line-height:1.65;color:var(--muted);min-height:42px}.cardcopy b{font-size:12px;color:var(--blue)}.bottom{background:linear-gradient(120deg,#10549a,#176dbd 55%,#6459ed);color:#fff;padding:52px 0}.bottomrow{display:flex;justify-content:space-between;align-items:center;gap:25px}.bottom h2{font-size:clamp(26px,4vw,40px);margin:0 0 10px}.bottom p{color:#e0edff;line-height:1.7;font-size:14px}.bottom .btn{background:#fff;color:var(--ink)}footer{padding:24px 0;background:#0c1528;color:#9eabc1;font-size:11px}
+/* Portfolio image viewer */
+.photo{cursor:zoom-in}
+.lightbox{position:fixed;inset:0;z-index:1000;background:rgba(5,10,22,.95);display:none;align-items:center;justify-content:center;padding:20px;color:#fff}
+.lightbox.open{display:flex}.lb-shell{width:min(1100px,100%);height:min(92vh,900px);display:flex;flex-direction:column;gap:12px}
+.lb-top,.lb-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.lb-title{font-size:14px;font-weight:800}.lb-count,.lb-bottom{font-size:12px;color:#c5cede}
+.lb-tools{display:flex;gap:7px}.lb-btn{border:1px solid #ffffff40;background:#ffffff14;color:#fff;border-radius:999px;min-width:40px;height:40px;padding:0 12px;cursor:pointer;font-size:17px;font-weight:800}
+.lb-btn:hover{background:#ffffff30}.lb-stage{position:relative;flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:14px;background:#080d17}
+.lb-image{max-width:100%;max-height:100%;object-fit:contain;user-select:none;-webkit-user-drag:none;transform:scale(1);touch-action:pan-y}
+.lb-arrow{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;padding:0;font-size:25px;background:#0b1426c9}.lb-prev{left:12px}.lb-next{right:12px}
+body.lightbox-open{overflow:hidden}
+@media(max-width:600px){.lightbox{padding:9px}.lb-shell{height:94vh;gap:9px}.lb-btn{height:36px;min-width:36px;padding:0 9px}.lb-hint{display:none}.lb-stage{border-radius:9px}}
+
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr);gap:12px}.photo{height:280px}}@media(max-width:560px){.wrap{width:calc(100% - 28px)}.nav{height:66px}.brand img{width:39px;height:39px}.navlinks{gap:10px;font-size:11px}.navlinks a:nth-child(2){display:none}.nav .btn{padding:10px 12px;font-size:10px}.hero{padding:48px 0 26px}.grid{padding:25px 0 55px;gap:10px}.photo{height:210px}.cardcopy{padding:12px}.cardcopy h2{font-size:15px}.cardcopy p{font-size:11px}.bottomrow{display:block}.bottom .btn{margin-top:12px}}
+
+.nav{height:auto!important;min-height:76px!important;flex-wrap:wrap!important;padding:12px 0!important}
+.navlinks{display:flex!important;flex:1 1 100%!important;order:3!important;gap:9px!important;overflow-x:auto!important;white-space:nowrap!important;padding:8px 0 3px!important;scrollbar-width:thin}
+.navlinks a{display:inline-flex!important;flex-shrink:0!important;padding:9px 11px!important;border-radius:999px!important;background:#f2f5fa!important;font-size:12px!important}
+.navlinks a:hover{background:#e0eaff!important;color:#1767b4!important}
+.nav .btn{margin-left:auto!important}
+@media(max-width:560px){.navlinks a:nth-child(n){display:inline-flex!important}.nav{min-height:70px!important}}
+</style><style>
+/* Consistent responsive navigation across all pages */
+.navlinks,.links{display:flex!important;align-items:center;gap:clamp(8px,1.4vw,18px)!important;flex-wrap:wrap!important}
+.navlinks a,.links a{display:inline-block!important;white-space:nowrap;font-size:clamp(10px,1.1vw,13px)!important}
+.navlinks a:nth-child(n),.links a:nth-child(n){display:inline-block!important}
+@media(max-width:850px){.nav,.navinner{height:auto!important;min-height:72px!important;flex-wrap:wrap!important;padding-top:10px!important;padding-bottom:10px!important}.navlinks,.links{order:3!important;width:100%!important;justify-content:center!important;gap:10px!important}.navlinks a,.links a{font-size:11px!important}}
+</style></head><body>
+<header><div class="wrap nav"><a class="brand" href="index.html"><img src="assets/logo.png" alt="Texlab logo"><span>TEXLAB<small>CUSTOM APPAREL</small></span></a><nav class="navlinks"><a href="index.html">Beranda</a><a href="katalog.html">Katalog</a><a href="portofolio.html">Portofolio</a><a href="materials.html">Materials</a><a href="testimoni.html">Testimoni</a></nav><a class="btn" href="https://wa.me/6281262151122" target="_blank" rel="noopener">Hubungi Kami ↗</a></div></header>
+<section class="hero"><div class="wrap"><div class="kicker">Portofolio pekerjaan</div><h1>Temukan inspirasi.<br><span class="grad">Wujudkan desainmu.</span></h1><p>Jelajahi pilihan karya dan visual produk Texlab. Klik salah satu item untuk bertanya tentang produk, bahan, desain, atau kebutuhan pesanan custom melalui WhatsApp.</p></div></section>
+<main class="wrap" id="galeri"><div class="grid" id="portfolio-grid"><p>Memuat portofolio...</p></div></main>
+<section class="bottom"><div class="wrap bottomrow"><div><h2>Punya ide desain sendiri?</h2><p>Ceritakan kebutuhan dan jumlah pesanan. Kami siap berdiskusi dengan Anda.</p></div><a class="btn" href="https://wa.me/6281262151122" target="_blank" rel="noopener">Konsultasi via WhatsApp ↗</a></div></section>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galeri portofolio">
+ <div class="lb-shell">
+  <div class="lb-top"><div><div class="lb-title" id="lbTitle">Portofolio Texlab</div><div class="lb-count" id="lbCount"></div></div>
+   <div class="lb-tools"><button class="lb-btn" id="zoomOut" aria-label="Zoom out">−</button><button class="lb-btn" id="zoomIn" aria-label="Zoom in">＋</button><button class="lb-btn" id="zoomReset" aria-label="Reset zoom">⤢</button><button class="lb-btn" id="lbClose" aria-label="Tutup">✕</button></div>
+  </div>
+  <div class="lb-stage" id="lbStage"><button class="lb-btn lb-arrow lb-prev" id="lbPrev" aria-label="Sebelumnya">‹</button><img class="lb-image" id="lbImage" alt=""><button class="lb-btn lb-arrow lb-next" id="lbNext" aria-label="Berikutnya">›</button></div>
+  <div class="lb-bottom"><span id="lbCaption"></span><span class="lb-hint">← → slide · Esc tutup · scroll untuk zoom</span></div>
+ </div>
+</div>
+
+<footer><div class="wrap">© 2026 Texlab Konveksi · <a href="https://www.instagram.com/texlab_konveksi/" target="_blank" rel="noopener">Instagram ↗</a></div></footer>
+<script>
+(() => {
+ const cards=[...document.querySelectorAll('.card')];
+ const items=cards.map(c=>({src:c.querySelector('.photo img')?.getAttribute('src'),title:c.querySelector('.cardcopy h2')?.textContent.trim()||'Portofolio Texlab',caption:c.querySelector('.cardcopy p')?.textContent.trim()||''})).filter(x=>x.src);
+ const box=document.getElementById('lightbox'),img=document.getElementById('lbImage'),title=document.getElementById('lbTitle'),count=document.getElementById('lbCount'),caption=document.getElementById('lbCaption');
+ let i=0,zoom=1,x=0,y=0,drag=null,touchX=null;
+ const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+ function transform(){img.style.transform=`translate(${x}px,${y}px) scale(${zoom})`;img.style.cursor=zoom>1?'grab':'default';}
+ function show(n){i=(n+items.length)%items.length;const it=items[i];img.src=it.src;img.alt=it.title;title.textContent=it.title;count.textContent=`${i+1} / ${items.length}`;caption.textContent=it.caption;zoom=1;x=0;y=0;transform();box.classList.add('open');document.body.classList.add('lightbox-open');}
+ function close(){box.classList.remove('open');document.body.classList.remove('lightbox-open');img.src='';}
+ cards.forEach((c,n)=>{const ph=c.querySelector('.photo');if(!ph)return;ph.setAttribute('role','button');ph.setAttribute('tabindex','0');ph.setAttribute('aria-label','Perbesar '+items[n].title);ph.addEventListener('click',e=>{e.preventDefault();show(n)});ph.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show(n)}});});
+ document.getElementById('lbClose').onclick=close;
+ document.getElementById('lbPrev').onclick=()=>show(i-1);document.getElementById('lbNext').onclick=()=>show(i+1);
+ document.getElementById('zoomIn').onclick=()=>{zoom=clamp(zoom+.25,1,4);transform()};
+ document.getElementById('zoomOut').onclick=()=>{zoom=clamp(zoom-.25,1,4);if(zoom===1)x=y=0;transform()};
+ document.getElementById('zoomReset').onclick=()=>{zoom=1;x=0;y=0;transform()};
+ box.addEventListener('click',e=>{if(e.target===box)close()});
+ document.addEventListener('keydown',e=>{if(!box.classList.contains('open'))return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(i-1);if(e.key==='ArrowRight')show(i+1);if(e.key==='+'||e.key==='='){zoom=clamp(zoom+.25,1,4);transform()}if(e.key==='-'){zoom=clamp(zoom-.25,1,4);if(zoom===1)x=y=0;transform()}});
+ document.getElementById('lbStage').addEventListener('wheel',e=>{if(!box.classList.contains('open'))return;e.preventDefault();zoom=clamp(zoom+(e.deltaY<0?.15:-.15),1,4);if(zoom===1)x=y=0;transform()},{passive:false});
+ img.addEventListener('pointerdown',e=>{if(zoom<=1)return;drag={px:e.clientX,py:e.clientY,x,y};img.setPointerCapture?.(e.pointerId)});
+ img.addEventListener('pointermove',e=>{if(!drag)return;x=drag.x+e.clientX-drag.px;y=drag.y+e.clientY-drag.py;transform()});
+ ['pointerup','pointercancel'].forEach(ev=>img.addEventListener(ev,()=>drag=null));
+ let swipeX=null;
+ document.getElementById('lbStage').addEventListener('touchstart',e=>{if(e.touches.length===1)swipeX=e.touches[0].clientX},{passive:true});
+ document.getElementById('lbStage').addEventListener('touchend',e=>{if(swipeX===null||zoom>1){swipeX=null;return}const dx=e.changedTouches[0].clientX-swipeX;if(Math.abs(dx)>65)show(i+(dx<0?1:-1));swipeX=null},{passive:true});
+})();
+</script>
+
+
+<script>
+async function loadTexlabData(file){const r=await fetch('data/'+file+'?v='+Date.now());if(!r.ok)throw new Error('Data tidak dapat dimuat');return r.json()}
+function escTex(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+</script>
+
+<script>
+(async()=>{try{const items=await loadTexlabData('portfolio.json');const grid=document.getElementById('portfolio-grid');grid.innerHTML=items.map((x,i)=>`<a class="card" href="${escTex(x.image)}" data-lightbox="texlab" data-index="${i}"><div class="photo"><img src="${escTex(x.image)}" alt="${escTex(x.alt||x.title)}" loading="lazy"></div><div class="cardcopy"><span>PORTOFOLIO ${String(i+1).padStart(2,'0')}</span><h2>${escTex(x.title)}</h2><p>${escTex(x.description)}</p><b>Lihat gambar ↗</b></div></a>`).join('')||'<p>Portofolio akan segera ditambahkan.</p>';
+grid.querySelectorAll('a[data-lightbox]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const list=items;let idx=Number(a.dataset.index);const overlay=document.createElement('div');overlay.style='position:fixed;inset:0;background:#07101ef2;z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px;color:white';overlay.innerHTML=`<button aria-label="Tutup" style="position:absolute;right:20px;top:15px;font-size:30px;background:none;color:white;border:0;cursor:pointer">×</button><button aria-label="Sebelumnya" style="position:absolute;left:15px;font-size:32px;background:none;color:white;border:0;cursor:pointer">‹</button><img style="max-width:88vw;max-height:82vh;object-fit:contain" src="${escTex(list[idx].image)}"><button aria-label="Berikutnya" style="position:absolute;right:15px;font-size:32px;background:none;color:white;border:0;cursor:pointer">›</button><div style="position:absolute;bottom:14px;text-align:center;max-width:80vw">${escTex(list[idx].title)}</div>`;const update=()=>{overlay.querySelector('img').src=list[idx].image;overlay.querySelector('div').textContent=list[idx].title};overlay.querySelectorAll('button')[0].onclick=()=>overlay.remove();overlay.querySelectorAll('button')[1].onclick=()=>{idx=(idx-1+list.length)%list.length;update()};overlay.querySelectorAll('button')[2].onclick=()=>{idx=(idx+1)%list.length;update()};overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.remove()});document.body.appendChild(overlay)}))
+}catch(e){document.getElementById('portfolio-grid').innerHTML='<p>Portofolio belum dapat dimuat. Silakan muat ulang halaman.</p>'}})();
+</script>
+</body></html>

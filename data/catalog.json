@@ -1,0 +1,62 @@
+[
+  {
+    "id": "product-1",
+    "title": "Jas Laboratorium",
+    "category": "01 / LAB COAT",
+    "description": "Jas lab lengan panjang atau pendek. Pilihan bahan Oxford, American Drill, dan Nagata Drill dengan model lengan panjang atau pendek.",
+    "image": "assets/jas-lab-web.jpg",
+    "alt": "Jas laboratorium Texlab",
+    "materialsLink": "materials.html#jas-lab",
+    "whatsapp": "https://wa.me/6281262151122?text=Halo%20Texlab%2C%20saya%20ingin%20pesan%20jas%20laboratorium."
+  },
+  {
+    "id": "product-2",
+    "title": "Seragam Organisasi PDH/PDL",
+    "category": "02 / ORGANIZATION",
+    "description": "Seragam organisasi dan instansi yang dapat disesuaikan dengan desain, identitas, bordir logo, kantong, dan kebutuhan aktivitas.",
+    "image": "assets/seragam-web.jpg",
+    "alt": "Seragam organisasi PDH PDL",
+    "materialsLink": "materials.html#seragam",
+    "whatsapp": "https://wa.me/6281262151122?text=Halo%20Texlab%2C%20saya%20ingin%20konsultasi%20seragam%20organisasi%20PDH%2FPDL."
+  },
+  {
+    "id": "product-3",
+    "title": "Work Jacket / Jaket Identitas",
+    "category": "03 / WORKWEAR",
+    "description": "Jaket identitas untuk tim, kegiatan lapangan, event, dan kebutuhan kerja. Detail model serta aplikasi logo dapat disesuaikan.",
+    "image": "assets/jaket-web.jpg",
+    "alt": "Work jacket atau jaket identitas",
+    "materialsLink": "materials.html#jaket",
+    "whatsapp": "https://wa.me/6281262151122?text=Halo%20Texlab%2C%20saya%20ingin%20konsultasi%20work%20jacket%20atau%20jaket%20identitas."
+  },
+  {
+    "id": "product-4",
+    "title": "Kaos Custom",
+    "category": "04 / CUSTOM T-SHIRT",
+    "description": "Kaos untuk komunitas, organisasi, merchandise, dan acara. Desain, warna, serta detail cetak dapat didiskusikan.",
+    "image": "assets/kaos-web.jpg",
+    "alt": "Kaos custom Texlab",
+    "materialsLink": "materials.html#kaos",
+    "whatsapp": "https://wa.me/6281262151122?text=Halo%20Texlab%2C%20saya%20ingin%20pesan%20kaos%20custom."
+  },
+  {
+    "id": "product-5",
+    "title": "Polo Custom",
+    "category": "05 / CUSTOM POLO",
+    "description": "Polo shirt untuk seragam tim, perusahaan, dan kegiatan. Pilihan bahan dan warna dikonfirmasi saat konsultasi.",
+    "image": "assets/polo-web.jpg",
+    "alt": "Polo shirt custom",
+    "materialsLink": "materials.html#polo",
+    "whatsapp": "https://wa.me/6281262151122?text=Halo%20Texlab%2C%20saya%20ingin%20pesan%20polo%20custom."
+  },
+  {
+    "id": "product-6",
+    "title": "Aksesoris: Topi & Goodie Bag",
+    "category": "06 / ACCESSORIES",
+    "description": "Aksesoris custom untuk event, organisasi, promosi, dan merchandise. Bentuk, material, serta branding menyesuaikan kebutuhan.",
+    "image": "assets/aksesoris-web.jpg",
+    "alt": "Aksesoris custom topi dan goodie bag",
+    "materialsLink": "materials.html#aksesoris",
+    "whatsapp": "https://wa.me/6281262151122?text=Halo%20Texlab%2C%20saya%20ingin%20konsultasi%20topi%20atau%20goodie%20bag%20custom."
+  }
+]
